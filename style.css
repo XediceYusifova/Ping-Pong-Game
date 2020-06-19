@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: blueviolet;
+}
+#game{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: #FFF;
+    position: relative;
+}
+#ball{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    top: 0;
+    left: 0;
+}
+#bar{
+    width: 100px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#score{
+    display: block;
+    left: 50px;
+    top: 20px;
+    width: 200px;
+    height: 70px;
+    font: 400 40px 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
